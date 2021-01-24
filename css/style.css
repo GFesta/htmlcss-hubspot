@@ -10,21 +10,17 @@ body {
 }
 
 header {
-  height: 90px;
-}
-
-.header-container {
-  border-bottom: 1px solid black;
+  height: 120vh;
 }
 
 .header-container,
 .menu-top,
 .menu-bottom {
-  height: 45px;
+  /* height: 45px; */
   width: 100%;
   padding: 0 10%;
-}
 
+}
 .menu-top,
 .menu-bottom {
   padding: 0 70px;
@@ -69,6 +65,7 @@ nav a {
   border-radius: 5px;
   padding: 5px 5px;
   font-size: 18px;
+  text-decoration: none;
 }
 .btn-orange {
   background-color: orange;
@@ -77,7 +74,6 @@ nav a {
   color: white;
 }
 .btn-large {
-  text-decoration: none;
   padding: 15px 10px;
 }
 /* /buttons */
@@ -89,7 +85,7 @@ nav a {
 }
 
 .img-jumbotron {
-  height: 100vh;
+  height: 96vh;
   background-image: url("../img/jumbotron.png");
 }
 
@@ -107,14 +103,50 @@ nav a {
   font-size: 20px;
   margin: 40px 0px;
 }
-
 .banner-text p:nth-last-child(1) {
   font-size: 12px;
 }
-
 .banner-jumbotron h1 {
   color: #372c2c;
   margin-bottom: 30px;
   font-size: 50px;
 }
 /* /banner */
+/* inizio section learn  */
+.learn {
+  width: 100%;
+  padding: 0 10%;
+}
+.learn-text {
+  text-align: center;
+  height: 20vh;
+  font-size: 20px;
+  margin: 0 70px;
+}
+
+h1 {
+  margin: 25px 0;
+  font-size: 45px;
+}
+
+.crm {
+  height: 40vh;
+}
+
+.col {
+  padding: 10px;
+  display: inline-block;
+}
+
+.side {
+  width: 150vh;
+}
+
+.middle {
+  width: 80vh;
+  float: right;
+}
+
+.img-box-1 {
+  width: 10%;
+}
