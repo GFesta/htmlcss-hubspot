@@ -145,20 +145,12 @@ h1 {
   max-width: 260px;
 }
 
-.blocco-orizzontale {
+.card-large {
   height: 40vh;
+  width: auto;
+  margin: 100px;
   border-style: groove;
 }
-
-.img-crm {
-  max-width: 800px;
-  height: 120px;
-}
-
-/* .img-left {
-  margin: 20px 20px;
-  float: left;
-} */
 
 .clearfix::after {
   content: "";
@@ -166,14 +158,50 @@ h1 {
   display: table;
 }
 
-.text,
-.paragraph {
-  float: right;
+.col-left {
+  margin-left: 40px;
+  float: left;
 }
 
-.card {
-  width: 30%;
-  height: 60vh;
+.col-rigt-text {
+  margin-left: 40%;
+  float: left;
+}
+
+.img-crm {
+  max-width: 800px;
+  height: 120px;
+}
+
+
+.row {
+  height: 120vh;
   margin: 5px 100px;
+}
+
+.card-marketing {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
   border-style: groove;
+  border-radius: 10px;
+  border-color: #d5c7c7;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.marketing {
+  max-width: 800px;
+  height: 120px;
+  padding: 0px 50px;
+}
+
+.card-text {
+  text-align: center;
+  padding: 20px 35px;
+  font-size: 25px;
 }
