@@ -178,6 +178,7 @@ h1 {
   width: 50%;
   float: left;
   padding: 70px 5px 50px;
+  text-align: left;
 }
 
 .popular-features {
@@ -253,7 +254,7 @@ h1 {
 
 /* inizio 8 tabelle */
 .learn {
-  height: 110vh;
+  height: 120vh;
   background-image: linear-gradient(to right, #2a988e , #00ffe7);
 }
 
@@ -313,18 +314,141 @@ h1 {
 
 /* inizio section customers */
 .customers {
-  padding-top: 100px;
+  height: 70vh;
+  height: 100%;
 }
 
 .content-customers {
-  height: 40vh;
+  height: 50vh;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .text-customers {
   width: 22%;
-  padding: 20px 40px 20px 20px;
+  margin: 10%;
+  padding-left: 10%;
+  float:left;
 }
 
-.logo-customers {
-  
+.grid-logo-customers {
+  font-size: 100%;
+  float: left;
+}
+
+.logo-customers{
+  width: 25%;
+  padding: 10px;
+}
+
+.start-growing {
+  height: 80vh;
+  width: 40%;
+  margin: 10%;
+  float: left;
+}
+
+.col-text-growing {
+  margin-top: 60px;
+  margin-right: 50%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+.text-growing {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.btn-growing {
+  margin: 10%;
+}
+
+.img-start-grw {
+  width: 24%;
+  margin-top: 12%;
+}
+
+.text-bottom-btn-grow {
+    font-size: 11px;
+    margin: 30px 35px 0;
+}
+/* fine section customers */
+
+/* footer */
+footer{
+  color:white;
+  padding: 40px 0;
+  text-transform: capitalize;
+  background-color: grey;
+  width: 100%;
+}
+
+.colonne {
+  width: 100%;
+  height: 50vh;
+}
+
+.col {
+  width: 25%;
+  float:left;
+}
+.lingue{
+  text-align: center;
+  margin: 60px auto 20px;
+}
+.lingue li{
+  float:left;
+  padding: 0 10px;
+}
+.lingue ul{
+  display:inline-block;
+}
+footer h5{
+  margin-bottom:20px;
+}
+footer ul{
+  list-style: none;
+}
+footer li{
+  padding-bottom:10px;
+}
+footer li a{
+  text-decoration: none;
+  color:white;
+  font-size: 14px;
+}
+footer i{
+  color:white;
+}
+footer .btn{
+  background-color: white;
+  border: none;
+  margin: 10px 0 20px;
+}
+footer .btn-pieno a{
+  color: #33475b;
+  text-decoration-line: none;
+}
+footer .social i{
+  font-size:16px;
+  margin-right:20px;
+}
+footer img{
+  display:block;
+}
+footer .legal-stuff ul{
+  position:absolute;
+  right:0;
+}
+footer .legal-stuff li{
+  float:left;
+  padding-left: 20px;
+}
+footer hr{
+  margin-bottom:30px;
 }
