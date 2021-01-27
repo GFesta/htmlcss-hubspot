@@ -391,20 +391,24 @@ h1 {
 /* fine section customers */
 
 /* footer */
-footer{
+footer {
+  width: 100%;
+  height: 700px;
   color:white;
   padding: 40px 0;
   text-transform: capitalize;
   background-color: grey;
-  width: 100%;
 }
 
 .container {
   position: relative;
+  height: 450px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .colonne-footer {
-  width: 65%;
+  width: 75%;
 }
 
 .col-4 {
@@ -412,15 +416,19 @@ footer{
   width: 25%;
   float:left;
 }
-.lingue{
+
+.lingue {
+  text-align: center;
+}
+
+.lingue li {
+  float:left;
+  padding: 0 10px;
   text-align: center;
   margin: 60px auto 20px;
 }
-.lingue li{
-  float:left;
-  padding: 0 10px;
-}
-.lingue ul{
+
+.lingue ul {
   display:inline-block;
 }
 
@@ -429,48 +437,25 @@ footer{
   width: 25%;
   padding: 20px;
 }
-footer h5{
+footer h5 {
   margin-bottom:20px;
 }
-footer ul{
+footer ul {
   list-style: none;
 }
-footer li{
+footer li {
   padding-bottom:10px;
 }
-footer li a{
+footer li a {
   text-decoration: none;
   color:white;
   font-size: 14px;
 }
-footer i{
+footer i {
   color:white;
 }
 
-/* footer .btn{
+footer .btn-pieno {
   background-color: white;
   border: none;
-  margin: 10px 0 20px;
-}
-footer .btn-pieno a{
-  color: #33475b;
-  text-decoration-line: none;
-}
-footer .social i{
-  font-size:16px;
-  margin-right:20px;
-}
-footer img{
-  display:block;
-}
-footer .legal-stuff ul{
-  position:absolute;
-  right:0;
-}
-footer .legal-stuff li{
-  float:left;
-  padding-left: 20px;
-}
-footer hr{
-  margin-bottom:30px;
 }
