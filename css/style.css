@@ -124,7 +124,6 @@ nav a {
 }
 /* /banner */
 /* inizio section wrapper  */
-
 main {
   height: 150vh;
 }
@@ -152,7 +151,7 @@ h1 {
   max-width: 260px;
 }
 /* fine wrapper */
-/* inizio card clearfix */
+/* inizio cards clearfix */
 .card-large {
   height: 40vh;
   width: auto;
@@ -250,7 +249,7 @@ h1 {
   margin: 10px 30px;
   inline-size: max-content;
 }
-/* fine card clearfix */
+/* fine cards clearfix */
 
 /* inizio 8 tabelle */
 .learn {
@@ -314,8 +313,8 @@ h1 {
 
 /* inizio section customers */
 .customers {
-  height: 70vh;
   height: 100%;
+  margin-top: 30px;
 }
 
 .content-customers {
@@ -337,12 +336,24 @@ h1 {
 
 .grid-logo-customers {
   font-size: 100%;
+}
+
+.row1,
+.row2 {
+  width: 58%;
+  margin: 10% 0 0;
   float: left;
 }
 
 .logo-customers{
   width: 25%;
   padding: 10px;
+  float: left;
+}
+
+.logo-custom {
+  width: 50%;
+  vertical-align: middle
 }
 
 .start-growing {
@@ -388,9 +399,11 @@ footer{
   width: 100%;
 }
 
+.container {
+}
+
 .colonne {
   width: 100%;
-  height: 50vh;
 }
 
 .col {
@@ -425,7 +438,7 @@ footer li a{
 footer i{
   color:white;
 }
-footer .btn{
+/* footer .btn{
   background-color: white;
   border: none;
   margin: 10px 0 20px;
@@ -451,4 +464,4 @@ footer .legal-stuff li{
 }
 footer hr{
   margin-bottom:30px;
-}
+} */
