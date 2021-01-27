@@ -400,13 +400,15 @@ footer{
 }
 
 .container {
+  position: relative;
 }
 
-.colonne {
-  width: 100%;
+.colonne-footer {
+  width: 65%;
 }
 
-.col {
+.col-4 {
+  position: relative;
   width: 25%;
   float:left;
 }
@@ -420,6 +422,12 @@ footer{
 }
 .lingue ul{
   display:inline-block;
+}
+
+.col-4 {
+  float: left;
+  width: 25%;
+  padding: 20px;
 }
 footer h5{
   margin-bottom:20px;
@@ -438,6 +446,7 @@ footer li a{
 footer i{
   color:white;
 }
+
 /* footer .btn{
   background-color: white;
   border: none;
@@ -464,4 +473,4 @@ footer .legal-stuff li{
 }
 footer hr{
   margin-bottom:30px;
-} */
+}
