@@ -14,6 +14,10 @@ header {
   height: 107vh;
 }
 
+.header-container {
+  position: fixed;
+}
+
 .header-container,
 .menu-top,
 .menu-bottom {
